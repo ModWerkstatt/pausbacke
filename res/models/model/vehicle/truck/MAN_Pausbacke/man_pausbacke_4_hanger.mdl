@@ -1,0 +1,674 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 3.54, 1.31, 3.3 },
+		bbMin = { -10.95, -1.31, 0 },
+	},
+	collider = {
+		params = {
+			halfExtents = { 3.1274220943451, 1.1996839046478, 1.5439674854279, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+                        children = {
+					        {
+						        _meshId = 2,
+                                materials = { "vehicle/truck/man_pausbacke/rumpf4.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rumpf_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 3,
+                                materials = { "vehicle/truck/man_pausbacke/rumpf4.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/kupplung_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/truck/man_pausbacke/ladung.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/pritsche-plane_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 5,
+                                materials = { "vehicle/truck/man_pausbacke/rumpf4.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/innen_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 6,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod0.msh",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.33132, -0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 7,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.33132, 0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 8,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.95867, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 9,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.31822, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 10,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/licht_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 11,
+                                materials = { "vehicle/truck/emissive/truck_brake_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/bremse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 12,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_rechts_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 13,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_links_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 14,
+                                materials = { "vehicle/truck/man_pausbacke/fenster.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/fenster_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "LKW",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 16,
+                                materials = { "vehicle/truck/man_pausbacke/sattel.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/deichsel_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 17,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "Deichsel",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.99444, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 19,
+                                materials = { "vehicle/truck/man_pausbacke/sattel.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 20,
+                                materials = { "vehicle/truck/man_pausbacke/ladung.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/pritsche-plane_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1917, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 21,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85816, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 22,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/licht_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 23,
+                                materials = { "vehicle/truck/emissive/truck_brake_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/bremse_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 24,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_rechts_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 25,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_links_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "Haenger",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.86798, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 150,
+		},
+        {
+			node = {
+				children = {
+					{
+						children = {
+					        {
+                                _meshId = 2,
+                                materials = { "vehicle/truck/man_pausbacke/rumpf4.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rumpf_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 3,
+                                materials = { "vehicle/truck/man_pausbacke/ladung.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/pritsche-plane_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod1.msh",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.33132, -0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 5,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.33132, 0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 6,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.95867, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 7,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.31822, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 8,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/licht_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 9,
+                                materials = { "vehicle/truck/emissive/truck_brake_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/bremse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 10,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_rechts_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 11,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_links_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "LKW",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 13,
+                                materials = { "vehicle/truck/man_pausbacke/sattel.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/deichsel_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 14,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "Deichsel",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.99444, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 16,
+                                materials = { "vehicle/truck/man_pausbacke/sattel.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/haenger_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 17,
+                                materials = { "vehicle/truck/man_pausbacke/ladung.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/pritsche-plane_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1917, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 18,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod1.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85816, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 19,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/licht_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 20,
+                                materials = { "vehicle/truck/emissive/truck_brake_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/bremse_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 21,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_rechts_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 22,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_links_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "Haenger",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.86798, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 150,
+			visibleTo = 250,
+		},
+        {
+			node = {
+				children = {
+                    {
+					    children = {
+					        {
+						        _meshId = 2,
+                                materials = { "vehicle/truck/man_pausbacke/rumpf4.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rumpf_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 3,
+                                materials = { "vehicle/truck/man_pausbacke/ladung.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/pritsche-plane_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod2.msh",
+						        transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 2.33132, -0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 5,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/rad_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.33132, 0.9263, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 6,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.95867, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 7,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.31822, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 8,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/licht_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 9,
+                                materials = { "vehicle/truck/emissive/truck_brake_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/bremse_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 10,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_rechts_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 11,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_links_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "LKW",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 13,
+                                materials = { "vehicle/truck/man_pausbacke/sattel.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/deichsel_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 14,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.525418, 1, },
+					        },
+                        },
+				        name = "Deichsel",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.99444, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        _meshId = 16,
+                                materials = { "vehicle/truck/man_pausbacke/sattel.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/haenger_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 17,
+                                materials = { "vehicle/truck/man_pausbacke/ladung.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/pritsche-plane_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1917, 0, 0, 1, },
+					        },
+                            {
+						        _meshId = 18,
+                                materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod2.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.85816, 0, 0.525418, 1, },
+					        },
+					        {
+						        _meshId = 19,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/licht_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 20,
+                                materials = { "vehicle/truck/emissive/truck_brake_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/bremse_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 21,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_rechts_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        _meshId = 22,
+                                materials = { "vehicle/truck/emissive/truck_all_lights.mtl", },
+						        mesh = "vehicle/truck/man_pausbacke/blinker_links_haenger_lod0.msh",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "Haenger",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.86798, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 1000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1957,
+			yearTo = 1967,
+		},
+		cost = {
+			price = -1,
+		},
+		description = {
+			description = _("man_pb_1_desc"),
+			name = _("man_pb_hanger_4_name"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCosts = -1,
+		},
+		roadVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/truck/man_pausbacke/achse_lod0.msh", "vehicle/truck/man_pausbacke/achse_single_lod0.msh", },
+					blinkLightsLeft = { 13, 25, },
+					blinkLightsRight = { 12, 24, },
+					brakeLights = { 11, 23, },
+					fakeBogies = {
+						{
+							group = 18,
+							offset = 1.87354,
+							position = -7.86798,
+						},
+					},
+					headLights = { 10, 22, },
+					steeringParts = { },
+					wheels = { "vehicle/truck/man_pausbacke/rad_lod0.msh", },
+				},
+                {
+					axles = { "vehicle/truck/man_pausbacke/achse_lod1.msh", "vehicle/truck/man_pausbacke/achse_single_lod1.msh", },
+					blinkLightsLeft = { 11, 22,  },
+					blinkLightsRight = { 10, 21, },
+					brakeLights = { 9, 20, },
+					fakeBogies = {
+						{
+							group = 15,
+							offset = 1.87354,
+							position = -7.86798,
+						},
+					},
+					headLights = { 8, 19, },
+					steeringParts = { },
+					wheels = { "vehicle/truck/man_pausbacke/rad_lod1.msh", },
+				},
+                {
+					axles = { "vehicle/truck/man_pausbacke/achse_lod2.msh", "vehicle/truck/man_pausbacke/achse_single_lod2.msh", },
+					blinkLightsLeft = { 11, 22,  },
+					blinkLightsRight = { 10, 21, },
+					brakeLights = { 9, 20, },
+					fakeBogies = {
+						{
+							group = 15,
+							offset = 1.87354,
+							position = -7.86798,
+						},
+					},
+					headLights = { 8, 19, },
+					steeringParts = { },
+					wheels = { "vehicle/truck/man_pausbacke/rad_lod2.msh", },
+				},
+			},
+			engine = {
+				type = "DIESEL",
+				power = 154,
+				tractiveEffort = 47,
+			},
+			soundSet = {
+				horn = "",
+				name = "truck_modern",
+			},
+			topSpeed = 22.2222222,
+			weight = 22.1,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "TRUCK",
+			seats = {
+				{
+					animation = "driving_upright",
+					crew = true,
+					forward = true,
+					group = 1,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.5, 0.56, 0.9, 1, },
+				},
+			},
+		},
+		transportVehicle = {
+			carrier = "ROAD",
+			compartments = {
+				{
+                	{
+						{
+							capacity = 52,
+							type = "PLASTIC",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "GRAIN",
+						},
+					},
+				},
+                {
+
+					{
+						{
+							capacity = 52,
+							type = "PLASTIC",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "GRAIN",
+						},
+					},
+				},{
+					{
+						{
+							capacity = 52,
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 52,
+							type = "GRAIN",
+						},
+					},
+				},
+			},
+			loadSpeed = 3,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/truck/MAN_Pausbacke/menu_pausbacke.mdl",
+		},
+	},
+	version = 1,
+}
+end
