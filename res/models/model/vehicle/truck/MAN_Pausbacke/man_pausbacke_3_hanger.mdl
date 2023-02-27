@@ -687,10 +687,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 2.441682, 1.15, 1.95, },
+								bbMax = { 2.40682, 1.15, 1.69, },
 								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -702,10 +702,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -717,10 +717,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -732,10 +732,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -747,10 +747,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -762,10 +762,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,3 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -777,10 +777,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
@@ -792,10 +792,10 @@ return {
 						{
 							capacity = 52,
 							cargoBay = {
-								bbMax = { 1.25, 1.15, 1.75, },
-								bbMin = { -4.18465, -1.15, 1.3, },
+								bbMax = { 2.40682, 1.15, 1.69, },
+								bbMin = { -2.98465, -1.15, 1.3, },
 								cargoFormat = "",
-								childId = 19,
+								childId = 18,
 								gridSize = {5 ,2 },
 								sizePolicy = "BEST_FIT",
 								type = "DISCRETE",
