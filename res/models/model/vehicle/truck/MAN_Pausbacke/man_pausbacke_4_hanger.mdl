@@ -648,19 +648,6 @@ return {
 							type = "GRAIN",
 						},
 					},
-				},{
-					{
-						{
-							capacity = 52,
-							type = "FOOD",
-						},
-					},
-					{
-						{
-							capacity = 52,
-							type = "GRAIN",
-						},
-					},
 				},
 			},
 			loadSpeed = 3,
