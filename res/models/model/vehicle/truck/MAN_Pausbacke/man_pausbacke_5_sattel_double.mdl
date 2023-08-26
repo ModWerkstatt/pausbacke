@@ -336,13 +336,13 @@ return {
                             {
 						        _meshId = 10,
                                 materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
-						        mesh = "vehicle/truck/man_pausbacke/achse_lod1.msh",
+						        mesh = "vehicle/truck/man_pausbacke/achse_lod2.msh",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.39668, 0, 0.525418, 1, },
 					        },
                             {
 						        _meshId = 11,
                                 materials = { "vehicle/truck/man_pausbacke/beweglich.mtl", },
-						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod1.msh",
+						        mesh = "vehicle/truck/man_pausbacke/achse_single_lod2.msh",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.74918, 0, 0.525418, 1, },
 					        },
                         },

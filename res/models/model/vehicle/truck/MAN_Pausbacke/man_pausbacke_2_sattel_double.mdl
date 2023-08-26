@@ -463,8 +463,8 @@ return {
 						{
 							capacity = 108,
 							cargoBay = {
-								bbMax = { 0.08682, 1.15, 2.1, },
-								bbMin = { -10.77891, -1.15, 1.5, },
+								bbMax = { 5.48682, 1.15, 2.1, },
+								bbMin = { -5.37891, -1.15, 1.5, },
 								cargoFormat = "",
 								childId = 13,
 								gridSize = { },
@@ -478,8 +478,8 @@ return {
 						{
 							capacity = 108,
 							cargoBay = {
-								bbMax = { 0.08682, 1.15, 2.1, },
-								bbMin = { -10.9491, -1.15, 1.5, },
+								bbMax = { 5.48682, 1.15, 2.1, },
+								bbMin = { -5.37891, -1.15, 1.5, },
 								cargoFormat = "",
 								childId = 13,
 								gridSize = { },
@@ -493,8 +493,8 @@ return {
 						{
 							capacity = 108,
 							cargoBay = {
-								bbMax = { 0.08682, 1.15, 2.2, },
-								bbMin = { -10.9491, -1.15, 1.5, },
+								bbMax = { 5.48682, 1.15, 2.1, },
+								bbMin = { -5.37891, -1.15, 1.5, },
 								cargoFormat = "",
 								childId = 13,
 								gridSize = { },
